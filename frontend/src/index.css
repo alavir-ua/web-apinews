@@ -1,0 +1,68 @@
+body {
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	font-size: 16px;
+}
+
+main {
+	min-height: 85vh;
+}
+
+footer {
+	color: #ff9900;
+	font-size: small;
+	border-top: 1px solid #000000;
+}
+
+hr  {
+	height: 1px;
+	background: #ff9900;
+}
+
+.vl {
+	border-right: 2px solid #ff9900;
+}
+
+.date-logo {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.vl {
+		border-right: none;
+	}
+}
+
+.tag {
+	margin: 0.1rem 0.1rem
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.source-list{
+	border-radius: 3px;
+	padding: 0.5rem;
+	border: 1px solid #000000;
+}
+
+.source-list:nth-child {
+	padding: 0.5rem;
+	border: 1px solid #000000;
+	border-bottom: none;
+}
+
+.source-list:last-child {
+	border-bottom: 1px solid #000000;
+}
+
+code {
+	color: #ff9900;
+}
+
+.date {
+	display: block;
+	float: left;
+	color:#aa9d99;
+	font-size: 1rem;
+}
